@@ -1,0 +1,27 @@
+{ "items" : [{
+    "name":"Harley Davidson",
+    "description": "Lorem ipsum dolor sit amet, pri delectus expetendis voluptatum eu. Agam mutat splendide an his, sed labore euripidis ea.",
+    "image": "http://www.harley-davidson.com/content/dam/h-d/images/motorcycles/my17/carousel/dom/17-hd-street-bob-large.png",
+    "cost": 6000
+    }, {
+    "name":"Ferrari",
+    "description": "Lorem ipsum dolor sit amet, pri delectus expetendis voluptatum eu. Agam mutat splendide an his, sed labore euripidis ea.",
+    "image": "https://dynaimage.cdn.cnn.com/cnn/w_1024,dpr_1.0,c_fill,g_auto,h_576,ar_16:9/http%3A%2F%2Fi2.cdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F161217142430-2017-cars-ferrari-1.jpg",
+    "cost": 78000
+    }, {
+    "name":"Aston Martin",
+    "description": "Lorem ipsum dolor sit amet, pri delectus expetendis voluptatum eu. Agam mutat splendide an his, sed labore euripidis ea.",
+    "image": "http://buyersguide.caranddriver.com/media/assets/submodel/8031.jpg",
+    "cost": 67000
+    },{
+    "name":"Kawasaki Ninja",
+    "description": "Lorem ipsum dolor sit amet, pri delectus expetendis voluptatum eu. Agam mutat splendide an his, sed labore euripidis ea.",
+    "image": "https://imgd.aeplcdn.com//476x268//bw/models/kawasaki-ninja-h2-standard-792.jpg?20151209201326",
+    "cost": 8000
+    }, {
+    "name":"Lamborghini",
+    "description": "Lorem ipsum dolor sit amet, pri delectus expetendis voluptatum eu. Agam mutat splendide an his, sed labore euripidis ea.",
+    "image": "http://www.lambocars.com/lambonews/lamborghini_centenario_roadster_delivered_in_the_us_600.jpg",
+    "cost": 80000
+    }]
+}

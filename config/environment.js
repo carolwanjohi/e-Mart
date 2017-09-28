@@ -18,6 +18,15 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyAoc8CWsK2b89z37IQ41MPXxRN9skJqcbk",
+      authDomain: "e-mart-431ab.firebaseapp.com",
+      databaseURL: "https://e-mart-431ab.firebaseio.com",
+      projectId: "e-mart-431ab",
+      storageBucket: "e-mart-431ab.appspot.com",
+      messagingSenderId: "529412392286"      
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

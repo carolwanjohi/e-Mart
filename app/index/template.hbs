@@ -1,0 +1,34 @@
+<h2>Weclome to e-Mart</h2>
+
+<ul class="list-unstyled">
+    {{#each model.items as |item|}}
+        {{item-tile item=item}}
+    {{/each}}
+</ul>
+
+<hr>
+<h2>e-Mart Ratings</h2>
+<ul>
+    {{#each model.feedbacks as |feedback|}}
+        <li> {{feedback.rate}} </li>
+    {{/each}}
+</ul>
+{{!-- 
+{{#if rateStoreForm}}
+    <h2>Rate e-Mart</h2>
+    <div>
+        <form>
+
+            <div class="form-group">
+                <label for="rate">Rate:</label>
+                {{input id="rate" value=rate placeholder="Rate Us"}}
+            </div>
+
+            <button {{action 'rateStore'}}>Rate Us</button>
+
+        </form>
+    </div>
+{{else}}
+    <button class="btn btn-info" {{action 'rateStoreFormShow'}}>Rate e-Mart</button>
+{{/if}} --}}
+

@@ -1,0 +1,17 @@
+<p>{{item.description}}</p>
+<img src={{item.image}} alt={{item.name}}>
+<p>{{item.cost}}</p>
+
+<button class="btn btn-danger"{{action 'delete' item}}>Delete Item</button>
+
+<h2>Feedback</h2>
+
+<ul>
+    {{#each item.feedbacks as |feedback|}}
+        {{!-- {{feedback-tile feedback=feedback}} --}}
+        <li>
+            <h5> {{feedback.rating}} </h5>
+            <p> {{feedback.content}} </p>
+        </li>
+    {{/each}}
+</ul>

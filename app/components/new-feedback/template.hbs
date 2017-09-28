@@ -1,0 +1,20 @@
+{{#if newFeedbackForm}}
+    <h4>New Feeckback</h4>
+    <div>
+        <form>
+            <div class="form-group">
+                <label for="rating">Rate</label>
+                {{input value=rating id="rating" placeholder="Rate Me" class="form-control"}}
+            </div>
+            
+            <div class="form-group">
+                <label for="content">Content</label>
+                {{input value=content id="content" placeholder="Please be nice" class="form-control"}}
+            </div>
+        
+            <button{{action 'saveFeedback'}} class="btn btn-success">Save</button>
+        </form>
+    </div>
+{{else}}
+    <button{{action 'newFeedbackFormShow'}} class="btn btn-info">Feedback</button>
+{{/if}}
